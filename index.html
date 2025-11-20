@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahek Patel – Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-toggle" id="menuToggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-left">
+            <!-- You will upload image here -->
+            <div class="hero-img"></div>
+        </div>
+
+        <div class="hero-right">
+            <h8 class="hero-title">My name is Mahek Patel</h8>
+            <p class="hero-subtitle">Hello and welcome! I am currently studying BCA at SPU.</p>
+            <p class="hero-desc">Take a look at my work through my tabs.</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about container reveal">
+<h2 class="section-title slide-left">About Me</h2>
+
+
+        <div class="about-content">
+            <p>
+                I am a 3rd-year BCA student passionate about building beautiful, 
+                functional and user-friendly websites. I focus on simplicity, 
+                clean UI, and smooth user experiences.My goal is to become a 
+                skilled frontend developer and UI/UX-focused technologist who 
+                can design and build modern, user-friendly digital products. 
+                I believe in continuous learning, teamwork, and delivering work 
+                that is both functional and visually polished.
+            </p>
+
+            <div class="skills">
+                <h3>Skills</h3>
+                <div class="skills-grid">
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">Python</span>
+                    <span class="skill">C</span>
+                    <span class="skill">C++</span>
+                    <span class="skill">SQL</span>
+                    <span class="skill">Java</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+<section id="projects" class="projects container reveal">
+<h2 class="section-title slide-left">Current Project</h2>
+
+<table width="100%" cellspacing="20">
+        <tr>
+            <!-- LEFT SIDE DESCRIPTION -->
+            <td width="50%" valign="top">
+                <h3>EventPro Website</h3>
+                <p>
+                    EventPro is a web-based Event Management and 
+                    Ticket Booking System that allows users to browse
+                    upcoming events like art exhibition, food carnival,
+                    music fest and book tickets in seconds. The system generates a unique booking 
+                    ID for every successful reservation.
+                    The application maintains smooth flow from event selection to 
+                    booking confirmation using a simple and user-friendly interface.
+                </p>
+            </td>
+
+            <!-- RIGHT SIDE IMAGES (2x2 GRID) -->
+            <td width="50%" valign="top">
+                <table width="100%" cellspacing="10">
+                    <tr>
+                        <td><img src="ep1.png" width="100%"></td>
+                        <td><img src="ep2.png" width="100%"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="ep3.png" width="100%"></td>
+                        <td><img src="ep4.png" width="100%"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+        
+    </section>
+
+    <!-- Contact Section -->
+  <section id="contact" class="contact container reveal">
+
+        <h2 class="section-title slide-left">Get In Touch</h2>
+
+        <p class="contact-text">Feel free to reach out for collaboration or project ideas.</p>
+
+        <form id="contactForm" class="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button class="cta-button" type="submit">Send Message</button>
+        </form>
+    </section>
+   <div class="social-links">
+
+    <a href="https://www.linkedin.com/in/mahek-patel-a38138380/" 
+   target="_blank" class="social-btn">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+</a>
+
+
+    <a href="https://github.com/mahekx18" target="_blank" class="social-btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+    </a>
+
+    <a href="resume.pdf" download="Mahek-Resume" class="social-btn">
+    <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="Resume">
+</a>
+
+
+
+</div>
+
+
+
+    <!-- Pink Cursor Trail -->
+   
+
+    <footer class="footer">
+        <p>© 2025 Mahek Patel. All rights reserved.</p>
+    </footer>
+
+    
+    <div class="cursor-container"></div>
+<script src="script.js"></script>
+</body>
+</html>
